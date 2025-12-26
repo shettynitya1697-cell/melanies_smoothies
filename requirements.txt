@@ -1,0 +1,11 @@
+name: streamlit_app_env
+channels:
+  - snowflake
+  - conda-forge
+dependencies:
+  - python=3.8 # Use the Python version specified in the lab instructions
+  - streamlit
+  - snowflake-snowpark-python
+  - pandas
+  - pip:
+    - # Any additional pip-only packages needed
